@@ -6886,17 +6886,17 @@ section.whychooseus-section-two {
     position: relative;
     padding: 0 15px;
 }
-
 .service-block-two .inner-box {
     position: relative;
     margin-bottom: 30px;
     margin-top: 30px;
     padding-right: 35px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 32% 1fr;
+    gap: 146px;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%);
 }
 
 .service-block-two .image-box {
